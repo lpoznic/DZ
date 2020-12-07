@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yur3PXmSN3TuKJupqrRY8n841Q+y6CdS1ksknXxKeqHTbPq2fmaEIiQPcD4RTWhPdt6PXmGbOWoLUExh6jcOzQ==",
+  "dgSpecHash": "2fe3MtQH8m+hvpQQibPBbW9EJa3tTG+jzM91k6GmJM5vBeR7hLY5N40GA8gsRuoqLOxCsUik/VKh17hlpFtGbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\ClassLibrary1.csproj",
+  "projectFilePath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ2\\Episode\\Episode\\Episode.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lpozn\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\lpozn\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\ClassLibrary1.csproj": {}
+    "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ2\\Episode\\Project\\Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\ClassLibrary1.csproj": {
+    "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ2\\Episode\\Project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\ClassLibrary1.csproj",
-        "projectName": "ClassLibrary1",
-        "projectPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectUniqueName": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ2\\Episode\\Project\\Project.csproj",
+        "projectName": "Project",
+        "projectPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ2\\Episode\\Project\\Project.csproj",
         "packagesPath": "C:\\Users\\lpozn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\obj\\",
+        "outputPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ2\\Episode\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lpozn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -36,15 +36,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -55,6 +47,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }

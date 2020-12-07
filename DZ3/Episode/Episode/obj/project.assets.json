@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Description/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Description.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Description.dll": {}
+        }
       }
     }
   },
@@ -172,10 +182,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Description/1.0.0": {
+      "type": "project",
+      "path": "../Description/Description.csproj",
+      "msbuildProject": "../Description/Description.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Description >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -185,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\ClassLibrary1.csproj",
-      "projectName": "ClassLibrary1",
-      "projectPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectUniqueName": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ2\\Episode\\Episode\\Episode.csproj",
+      "projectName": "Episode",
+      "projectPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ2\\Episode\\Episode\\Episode.csproj",
       "packagesPath": "C:\\Users\\lpozn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\obj\\",
+      "outputPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ2\\Episode\\Episode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lpozn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -204,7 +220,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lpozn\\Documents\\GitHub\\DZ2\\Episode\\Description\\Description.csproj": {
+              "projectPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ2\\Episode\\Description\\Description.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

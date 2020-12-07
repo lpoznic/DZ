@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "ClassLibrary1/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/ClassLibrary1.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary1.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "ClassLibrary1/1.0.0": {
-      "type": "project",
-      "path": "../ClassLibrary1/ClassLibrary1.csproj",
-      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "ClassLibrary1 >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\lpozn\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ2\\Episode\\Project\\Project.csproj",
+      "projectName": "Project",
+      "projectPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ2\\Episode\\Project\\Project.csproj",
       "packagesPath": "C:\\Users\\lpozn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ2\\Episode\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lpozn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,11 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\ClassLibrary1.csproj": {
-              "projectPath": "C:\\Users\\lpozn\\Documents\\GitHub\\DZ1\\DZ1\\ClassLibrary1\\ClassLibrary1.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

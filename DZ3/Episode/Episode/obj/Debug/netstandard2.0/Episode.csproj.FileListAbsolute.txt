@@ -1,0 +1,9 @@
+C:\Users\lpozn\Documents\GitHub\DZ2\Episode\Episode\bin\Debug\netstandard2.0\Episode.deps.json
+C:\Users\lpozn\Documents\GitHub\DZ2\Episode\Episode\bin\Debug\netstandard2.0\Episode.dll
+C:\Users\lpozn\Documents\GitHub\DZ2\Episode\Episode\bin\Debug\netstandard2.0\Episode.pdb
+C:\Users\lpozn\Documents\GitHub\DZ2\Episode\Episode\obj\Debug\netstandard2.0\Episode.csprojAssemblyReference.cache
+C:\Users\lpozn\Documents\GitHub\DZ2\Episode\Episode\obj\Debug\netstandard2.0\Episode.AssemblyInfoInputs.cache
+C:\Users\lpozn\Documents\GitHub\DZ2\Episode\Episode\obj\Debug\netstandard2.0\Episode.AssemblyInfo.cs
+C:\Users\lpozn\Documents\GitHub\DZ2\Episode\Episode\obj\Debug\netstandard2.0\Episode.csproj.CoreCompileInputs.cache
+C:\Users\lpozn\Documents\GitHub\DZ2\Episode\Episode\obj\Debug\netstandard2.0\Episode.dll
+C:\Users\lpozn\Documents\GitHub\DZ2\Episode\Episode\obj\Debug\netstandard2.0\Episode.pdb
